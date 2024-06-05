@@ -1,0 +1,10 @@
+<div class="card mb-3">
+  <div class="card-header">
+    {{ title }}
+  </div>
+  <div class="card-body">
+    <!-- Using the ng content with select (class name) to be passed from parent calling component  -->
+    <ng-content select=".panel-content"></ng-content>
+
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div *ngFor="let follower of followers" class="d-flex align-items-start mb-4">
+  <div class="me-3">
+    <a href="#">
+      <img class="avatar rounded-circle" [src]="follower.avatar_url" alt="Avatar" width="64" height="64">
+    </a>
+  </div>
+  <div>
+    <h5 class="fw-bold mb-1">
+      <a [routerLink]="['/followers', follower.id, follower.login]" class="text-decoration-none">{{ follower.login }}</a>
+    </h5>
+    <a [href]="follower.html_url" target="_blank">{{ follower.html_url }}</a>
+  </div>
+</div>

@@ -1,14 +1,29 @@
 # FollowersApp
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+
+## Deployments
+### Github Pages
 You can access this application hosted on **Github pages**
 [Followers Application](https://hamzahabib778912.github.io/followers-app/).
 
 To redeploy any changes:
   -  ng build --prod --base-href="/followers-app/"
   -  npx angular-cli-ghpages --dir=dist/followers-app
+
 Changes would be visible within 10 minutes on the hosted URL.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+### Firebase
+You can access this application hosted on **Firebase**
+[Followers Application](https://followers-app-9520d.web.app/).
+
+To redeploy any changes:
+  -  firebase init (if not done before)  
+  -  ng build --prod
+  -  firebase deploy
+
+Changes would be visible within 10 minutes on the hosted URL.
+
 
 ## Development server
 

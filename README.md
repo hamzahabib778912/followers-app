@@ -1,7 +1,13 @@
 # FollowersApp
 
 You can access this application hosted on **Github pages**
-[Followers Application](https://hamzahabib778912.github.io/followers-app/)
+[Followers Application](https://hamzahabib778912.github.io/followers-app/).
+
+To redeploy any changes:
+  -  ng build --prod --base-href="/followers-app/"
+  -  npx angular-cli-ghpages --dir=dist/followers-app
+Changes would be visible within 10 minutes on the hosted URL.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
 ## Development server

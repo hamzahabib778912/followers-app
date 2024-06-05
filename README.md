@@ -1,5 +1,7 @@
-# HelloWorld
+# FollowersApp
 
+You can access this application hosted on **Github pages**
+[Followers Application](https://hamzahabib778912.github.io/followers-app/)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
 ## Development server
